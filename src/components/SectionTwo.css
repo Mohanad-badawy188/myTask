@@ -1,0 +1,33 @@
+.sectionTwoBtn {
+  background: #fff;
+  padding: 5px 17px;
+  margin: 2px;
+  color: #287eb9;
+  border-color: #287eb9;
+  border-radius: 6px;
+  font-weight: 300;
+  border-width: 0.8px;
+  
+}
+.sectionTwoBtn:hover {
+  color: #fff;
+  background-color: #287eb9;
+  transition: 0.2s ease;
+}
+@media (max-width: 900px) {
+  .sectionTwoBtn {
+    min-height: 60px !important;
+    width: 90px;
+
+
+}
+}
+.tableHeader {
+  background-color: #f3f6fb !important;
+}
+.test{
+    background-color: white;
+}
+.test:checked{
+    background-color: #287eb9 !important;
+}

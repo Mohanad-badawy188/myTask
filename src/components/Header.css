@@ -1,0 +1,82 @@
+.form-control::placeholder {
+  color: black !important;
+  opacity: 0.4;
+  font-size: 14px;
+}
+.navbar-toggler-icon {
+  background-image: none;
+  border: none !important;
+}
+.navbar-toggler-icon:hover {
+  color: #287eb9;
+}
+
+
+.hover:hover,
+.badge:hover ~ .hover {
+  color: #287eb9 !important;
+}
+.badge:hover,
+.hover:hover ~ .badge {
+  bottom: 5px !important;
+  transition: bottom 0.1s;
+}
+.dropdownitem:hover {
+  background-color: rgba(0, 0, 0, 0.058);
+}
+.fs14 {
+  font-size: 14px !important;
+}
+
+.show > .dropdown-menu {
+  max-height: 900px;
+  visibility: visible;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 0.4s;
+}
+
+.dropdown-menu {
+  display: flex;
+  max-height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+    top: 70%;
+  }
+  100% {
+    opacity: 1;
+    top: 100%;
+  }
+}
+@keyframes navbar {
+    0% {
+      opacity: 0;
+      top: 70%;
+    }
+    100% {
+      opacity: 1;
+      top: 100%;
+    }
+  }
+.focus {
+  color: #287eb9 !important;
+}
+.arrowUp {
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+}
+.show > .outline {
+
+    max-height: 900px;
+    visibility: visible;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 0.4s;
+  }
